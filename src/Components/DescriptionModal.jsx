@@ -17,7 +17,7 @@ const DescriptionModal = ({
       >
         <div className='row space-between pb--20 hr_b '>
           <div className='modal--title'>투자유형 변경</div>
-          <img onClick={onClick} src='/images/crossIcon.svg' />
+          <img alt='cross' onClick={onClick} src='/images/crossIcon.svg' />
         </div>
         <Table />
         <div>

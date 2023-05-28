@@ -17,10 +17,10 @@ const Modals = ({
       >
         <div className='row space-between'>
           <div>
-            <img onClick={onClick} src={src} />{' '}
+            <img alt='warning' src={src} />{' '}
           </div>
           <div>
-            <img src='/images/crossIcon.svg' />
+            <img onClick={onClick} alt='cross' src='/images/crossIcon.svg' />
           </div>
         </div>
         <div className='modal--title'>{title}</div>
