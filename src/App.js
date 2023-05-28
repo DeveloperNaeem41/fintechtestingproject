@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import DescriptionModal from './Components/DescriptionModal';
 
-function App() {
+import Header from './Components/Header';
+import MainTable from './Components/MainTable';
+import Modals from './Components/Modals';
+import NavBar from './Components/NavBar';
+import SubHeader from './Components/SubHeader';
+import Table from './Components/Table';
+import TableHeader from './Components/TableHeader';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='parent-class'>
+      <Header />
+      <NavBar />
+      <SubHeader />
+      <TableHeader />
+
+      <DescriptionModal />
+      <MainTable />
     </div>
   );
-}
+};
 
 export default App;
